@@ -1,0 +1,24 @@
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    padding: 0.625rem 1.5rem 0.625rem 1.5rem;
+    border: transparent;
+    border-radius: 6.25rem;
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.05), rgba(8, 30, 52, 0.05)), #F0F0F0;
+    color: #081E34;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:not(:last-child){
+    margin-right: 1rem;
+}
+
+.btn:hover {
+    background: rgba(8, 30, 52, 0.42);
+    color: white;
+    font-weight: 700;
+    transition: 0.3s;
+}
