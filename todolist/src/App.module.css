@@ -1,5 +1,6 @@
 .header_body {
     display: flex;
+    margin-bottom: 4rem;
 }
 
 .form_filter {
@@ -23,4 +24,8 @@
 
 .btn_container {
     margin-top: 6.375rem;
+}
+
+.body {
+
 }

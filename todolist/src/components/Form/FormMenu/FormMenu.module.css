@@ -1,5 +1,40 @@
 .form_menu {
-    padding: 1rem;
+    margin-right: 1.25rem;
+    width: 16.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 0.75rem;
+    padding: 0 1.1rem;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    margin-bottom: 0.625rem;
+}
+
+.textarea {
+    height: 7.5rem;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: transparent;
+    resize: none;
+    width: 14.75rem;
+    padding: 13px 16px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    margin-bottom: 0.625rem;
+}
+
+.textarea:focus {
+    outline: none;
 }
 
 .btn {
