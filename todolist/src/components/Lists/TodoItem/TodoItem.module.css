@@ -1,0 +1,12 @@
+.todoitem {
+    display: flex;
+    align-items: center;
+}
+
+.todoitem img {
+    margin-right: 5px;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
