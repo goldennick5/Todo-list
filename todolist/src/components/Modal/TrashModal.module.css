@@ -5,6 +5,7 @@
     position: absolute;
     width: 240px;
     height: 48px;
+    cursor: pointer;
 }
 
 .modal_content{

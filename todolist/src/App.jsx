@@ -5,6 +5,7 @@ import Button from "./components/Button/Button.jsx";
 import Form from "./components/Form/Form.jsx";
 import TodoItem from "./components/Lists/TodoItem/TodoItem.jsx";
 import TrashItem from "./components/Lists/TrashItem/TrashItem.jsx";
+import FilterTitle from "./components/FilterTItle/FilterTitle";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -94,6 +95,7 @@ function App() {
         </div>
         <Form newTodo={newTodo} />
       </div>
+      {filter === "To Do" ? <FilterTitle filter="To Do"/> : filter === "Done" ? <FilterTitle filter="Done"/> : <FilterTitle filter="Trash"/>}
       <div className={s.body}>
         {filteredTodos.map((todo) =>
           filter === "To Do" ? (
