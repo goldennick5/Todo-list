@@ -1,0 +1,19 @@
+.modal {
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    position: absolute;
+    width: 240px;
+    height: 48px;
+}
+
+.modal_content{
+    padding: 12px 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modal_content img {
+    margin-right: 12px;
+}
